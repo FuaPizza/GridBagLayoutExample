@@ -20,7 +20,6 @@ public class Controller implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		if (e.getActionCommand().toString().equals("submit")) {
-			System.out.println("Ciao");
 			registraUtente();
 		}
 	}
